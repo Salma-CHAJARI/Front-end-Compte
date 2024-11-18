@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextSolde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Solde"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextDateCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de création (ex: 2024-11-18)"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type (ex: épargne)"/>
+
+</LinearLayout>
